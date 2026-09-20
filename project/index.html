@@ -1,19 +1,71 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Учебный проект по техническому заданию"
-    />
-    <title>Учебный проект</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Учебный проект по техническому заданию" />
+  <title>Учебный проект</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Перейти в начало страницы">
+        Если бы я стал волшебником
+      </a>
+
+      <nav class="navigation" aria-label="Основная навигация">
+        <a href="#experience">Главная</a>
+        <a href="#projects">Изменения</a>
+        <a href="#skills">Бонусы</a>
+        <a href="#education">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Лучший мир</h1>
+
+    <div class="quote-block">
+      <span class="quote-open">«</span>
+
+      <blockquote>
+        — Мир становится богаче не тогда, когда в нём больше порядка, а когда в нём находится место и дракону, и эльфу,
+        и говорящему столу.
+      </blockquote>
+
+      <span class="quote-close">»</span>
+    </div>
+
+    <section class="races-section" id="projects">
+      <h2>Новые расы</h2>
+
+      <article class="race">
+        <img class="race-image" src="images/elves.jpg" alt="Эльфы в лесу">
+
+        <h3>Эльфы</h3>
+
+        <p class="race-text">
+          В лесах появляются поселения эльфов. Они живут среди древних деревьев,
+          отлично владеют луком и стараются не вмешиваться в жизнь людей без необходимости.
+        </p>
+      </article>
+
+      <article class="race">
+        <img class="race-image" src="images/dwarves.jpg" alt="Дворфы">
+
+        <h3>Дворфы</h3>
+
+        <p class="race-text">
+          В горах возникают города дворфов. Они строят огромные подземные поселения,
+          занимаются кузнечным делом и постепенно начинают торговать с людьми.
+        </p>
+      </article>
+    </section>
+
+  </main>
+</body>
+
 </html>
