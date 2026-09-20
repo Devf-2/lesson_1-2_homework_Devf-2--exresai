@@ -243,6 +243,51 @@ blockquote {
   line-height: 1.6;
 }
 
+.contact-section {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 70px;
+
+  min-height: 260px;
+
+  margin: 120px;
+  padding: 50px;
+
+  border-radius: 18px;
+
+  background: var(--text);
+  color: #ffffff;
+}
+
+.contact-section h2 {
+  margin: 0;
+
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-links a {
+  padding-bottom: 8px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #cfd6df;
+}
+
 @media (max-width: 760px) {
   .site-header {
     position: static;
